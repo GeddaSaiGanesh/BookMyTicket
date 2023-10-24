@@ -1,0 +1,23 @@
+ 
+.home-container{
+    padding: 30px;
+    box-sizing: border-box;
+}
+.home-container .heading-text{
+    color:#ffffff;
+    padding-bottom: 20px;
+}
+.movie-cards-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap:wrap;
+    list-style: none;
+    gap: 20px;
+}
+
+@media screen and (max-width:767px) {
+    .movie-cards-container{
+        justify-content: space-evenly;
+    }
+}

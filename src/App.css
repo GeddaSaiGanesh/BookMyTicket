@@ -1,0 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.bg-container {
+  background-color: #141A1F;
+  min-height: 100vh;
+}
+
