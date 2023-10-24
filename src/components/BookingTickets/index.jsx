@@ -151,7 +151,7 @@ const BookingTickets = (props) => {
       </div>
       <div>
         {loading? (
-          <Box sx={{ display: 'flex' }}>
+          <Box sx={{ display: 'flex',justifyContent:'center' }}>
           <CircularProgress color="secondary"  />
         </Box>
     
